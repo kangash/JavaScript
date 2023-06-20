@@ -63,3 +63,8 @@ function testStr(str, n) {
 function testStr(a, b) {
   return a.toUpperCase() + b.toLowerCase();
 }
+
+/* Задание 9. В функцию testStr передаются две строки. Нужно вернуть индекс позиции, с которой начинается вхождение второй строки в первую. */
+function testStr(a, b) {
+  return a.indexOf(b);
+}
