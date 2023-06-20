@@ -51,3 +51,9 @@ function my_function(n) {
 function testStr(a, b) {
   return a.length + b.length;
 }
+
+/* Задание 7. В функцию testStr первым параметром передается строка, а вторым - число. 
+Нужно вернуть из функции символ строки, порядковый номер которого указан в переданном в функцию числе. */
+function testStr(str, n) {
+  return str.charAt(n - 1);
+}
