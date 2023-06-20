@@ -6,3 +6,9 @@
 Here you can find my completed JavaScript practice exercises.
 
 ---
+
+## Course 'JS for Beginners'
+
+The file [course_JS_for_beginners.js](https://github.com/kangash/JavaScript/blob/main/course_practice.js) contains the completed tasks. The tasks are arranged in order of increasing complexity.
+
+---
