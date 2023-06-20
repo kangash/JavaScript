@@ -57,3 +57,9 @@ function testStr(a, b) {
 function testStr(str, n) {
   return str.charAt(n - 1);
 }
+
+/* Задание 8. В функцию testStr передаются две строки. 
+Нужно вернуть из функции строку, которая будет включать в себя обе этих строки, преобразовав в первой строке все буквы в заглавные, а во второй - в строчные. */
+function testStr(a, b) {
+  return a.toUpperCase() + b.toLowerCase();
+}
