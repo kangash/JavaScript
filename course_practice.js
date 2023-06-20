@@ -46,3 +46,8 @@ function my_function(n) {
   if (n == 1) return n;
   return my_function(n - 1) + ` ${n}`;
 }
+
+/* Задание 6. В функцию testStr передаются две строки. Нужно вернуть из функции их суммарную длину. */
+function testStr(a, b) {
+  return a.length + b.length;
+}
