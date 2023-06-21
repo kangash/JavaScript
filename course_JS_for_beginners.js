@@ -68,3 +68,12 @@ function testStr(a, b) {
 function testStr(a, b) {
   return a.indexOf(b);
 }
+
+/* Задание 10. В функцию testArray передаются два массива случайной длины заполненные случайными числами. Нужно сосчитать сумму всех элементов обоих массивов и возвратить ее из функции. */
+function testArray(a, b) {
+  let arr = a.concat(b);
+  let result = arr.reduce(function (sum, current) {
+    return sum + current;
+  });
+  return result;
+}
