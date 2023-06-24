@@ -14,3 +14,5 @@ The file [js_for_beginners.js](https://github.com/kangash/JavaScript/blob/main/j
 ---
 
 ## Course 'JavaScript Trainer'
+
+The file [js_trainer.js](https://github.com/kangash/JavaScript/blob/main/js_trainer.js) contains the completed tasks from the course 'JavaScript Trainer'.
