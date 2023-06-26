@@ -26,3 +26,7 @@ function checkRole(role) {
 
 /* 4. Переменная item содержит название свойства для поиска, data содержит объект.
 Напишите код, который проверяет, существует ли свойство item в объекте data и записывает логический результат true или false в переменную result. */
+function checkProperty(item, data) {
+  let result = item in data;
+  console.log(result);
+}
