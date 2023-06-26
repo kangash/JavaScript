@@ -5,3 +5,7 @@ function checkNumber(num) {
 }
 
 /* 2. Напишите код, который сравнивает два числа. */
+function compareNumbers(x, y) {
+  let result = x > y ? "x больше y" : x < y ? "y больше x" : "x равно y";
+  console.log(result);
+}
