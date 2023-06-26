@@ -12,3 +12,14 @@ function compareNumbers(x, y) {
 
 /* 3. Напишите код, который в зависимости от значения переменной role записывает соответствующий результат в переменную result.
 1 — admin, 2 — moderator, 3 — user */
+function checkRole(role) {
+  let result =
+    role == 1
+      ? "admin"
+      : role == 2
+      ? "moderator"
+      : role == 3
+      ? "user"
+      : "role is undefined";
+  console.log(result);
+}
