@@ -1,3 +1,5 @@
+// Задачи низкой сложности
+
 /* 1. Напишите код, который определяет является ли число четным или нечетным. */
 function checkParity(num) {
   let result = num % 2 == 0 ? "четное" : "нечетное";
@@ -30,3 +32,7 @@ function checkProperty(item, data) {
   let result = item in data;
   console.log(result);
 }
+
+// Задачи средней сложности
+
+// Задачи высокой сложности
