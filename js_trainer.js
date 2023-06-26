@@ -3,3 +3,5 @@ function checkNumber(num) {
   let result = num % 2 == 0 ? "четное" : "нечетное";
   console.log(result);
 }
+
+/* 2. Напишите код, который сравнивает два числа. */
