@@ -2,13 +2,13 @@
 
 /* 1. Напишите код, который определяет является ли число четным или нечетным. */
 function checkParity(num) {
-  let result = num % 2 == 0 ? "четное" : "нечетное";
+  let result = num % 2 == 0 ? 'четное' : 'нечетное';
   console.log(result);
 }
 
 /* 2. Напишите код, который сравнивает два числа. */
 function compareNumbers(x, y) {
-  let result = x > y ? "x больше y" : x < y ? "y больше x" : "x равно y";
+  let result = x > y ? 'x больше y' : x < y ? 'y больше x' : 'x равно y';
   console.log(result);
 }
 
@@ -16,12 +16,12 @@ function compareNumbers(x, y) {
 function checkRole(role) {
   let result =
     role == 1
-      ? "admin"
+      ? 'admin'
       : role == 2
-      ? "moderator"
+      ? 'moderator'
       : role == 3
-      ? "user"
-      : "role is undefined";
+      ? 'user'
+      : 'role is undefined';
   console.log(result);
 }
 
@@ -42,7 +42,7 @@ function checkNumber(n) {
 /* 6. Есть переменная stars, которая содержит входные пользовательские данные. Значение переменной stars от 1 до 5. 1 — ★, 2 — ★★, 3 — ★★★, 4 — ★★★★, 5 — ★★★★★. 
 Напишите код, который проверяет значение переменной stars и записывает результат в переменную result. */
 function showStars(stars) {
-  let result = stars >= 1 && stars <= 5 ? "★".repeat(stars) : "";
+  let result = stars >= 1 && stars <= 5 ? '★'.repeat(stars) : '';
   console.log(result);
 }
 
