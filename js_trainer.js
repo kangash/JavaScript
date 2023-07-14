@@ -52,6 +52,7 @@ function sumOddNumbers(n) {
   for (let i = 1; i <= n; i += 2) {
     result += i;
   }
+  console.log(result);
 }
 
 // Задачи средней сложности
