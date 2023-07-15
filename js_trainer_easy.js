@@ -57,8 +57,13 @@ function sumOddNumbers(n) {
 /* 8. Есть переменная str, которая содержит входные пользовательские данные. Напишите код, который в зависимости от длины строки str записывает количество + в переменную result. */
 
 function writeStrPlus(str) {
-  result = '+'.repeat(str.length);
+  let result = '+'.repeat(str.length);
   console.log(result);
 }
 
 /* 9. Есть переменная str, которая содержит входные пользовательские данные. Напишите код, который находит первый символ в переменной str и записывает результат в переменную result. */
+
+function (str) {
+  let result = str[0];
+  console.log(result);
+}
