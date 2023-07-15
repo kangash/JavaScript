@@ -63,7 +63,7 @@ function writeStrPlus(str) {
 
 /* 9. Есть переменная str, которая содержит входные пользовательские данные. Напишите код, который находит первый символ в переменной str и записывает результат в переменную result. */
 
-function (str) {
+function getFirstLetter(str) {
   let result = str[0];
   console.log(result);
 }
