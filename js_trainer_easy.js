@@ -80,6 +80,7 @@ function getShortStr(str) {
   } else {
     result = str;
   }
+  console.log(result);
 }
 
 /* 11. Есть переменная str, которая содержит входные пользовательские данные. Напишите код, который подсчитывает количество гласных и согласных букв в переменной str и записывает результат в переменную result. */
@@ -90,4 +91,10 @@ function calcLetters(str) {
   let arr = str.split('');
   let arrVowels = 'б,в,г,д,ж,з,й,к,л,м,н,п,р,с,т,ф,х,ц,ч,ш,щ'.split(',');
   let arrConsonants = 'а,у,о,ы,э,я,ю,ё,и,е'.split(',');
+  for (let i = 0; i < arr.length; i++) {
+    if (arrVowels.includes(arr[i])) vowels += 1;
+    if (arrConsonants.includes(arr[i])) consonants += 1;
+  }
+  let result = `согласных: ${consonants}, гласных: ${vowels}`;
+  console.log(result);
 }
