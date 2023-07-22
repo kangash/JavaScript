@@ -84,4 +84,10 @@ function getShortStr(str) {
 
 /* 11. Есть переменная str, которая содержит входные пользовательские данные. Напишите код, который подсчитывает количество гласных и согласных букв в переменной str и записывает результат в переменную result. */
 
-function calcLetters(str) {}
+function calcLetters(str) {
+  let vowels = 0;
+  let consonants = 0;
+  let arr = str.split('');
+  let arrVowels = 'б,в,г,д,ж,з,й,к,л,м,н,п,р,с,т,ф,х,ц,ч,ш,щ'.split(',');
+  let arrConsonants = 'а,у,о,ы,э,я,ю,ё,и,е'.split(',');
+}
